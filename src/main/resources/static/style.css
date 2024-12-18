@@ -1,0 +1,90 @@
+   body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9f7fe; /* Soft blue background */
+            color: #333;
+        }
+        header {
+           height:75px;
+            background-color: #005f73; /* Teal */
+            color: #fffffb; /* Off-white */
+            padding: 8px; /* Reduced padding */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            height: 50px; /* Logo size */
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            margin: 0;
+            margin-left: auto; /* Aligns navigation to the right */
+        }
+        nav li {
+            margin-right: 10px; /* Further reduced margin */
+        }
+        nav a {
+            color: #fffffb; /* Off-white */
+            text-decoration: none;
+            padding: 5px 8px; /* Smaller padding */
+            transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+            border-radius: 5px; /* Rounded corners */
+        }
+        nav a:hover {
+            background-color: #94d2bd; /* Light teal background on hover */
+            transform: translateY(-2px); /* Slightly lift the button on hover */
+        }
+        h3 {
+            margin: 10px 0;
+            text-align: center; /* Center align messages */
+        }
+        main {
+            padding: 60px 20px; /* Increased padding for height */
+            text-align: center;
+            background-color: #ffffff; /* Clean white for the main section */
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            margin: 20px; /* Space around the main section */
+        }
+        footer {
+            background-color: #005f73; /* Teal */
+            color: #fffffb; /* Off-white */
+            text-align: center;
+            padding: 3px; /* Smaller padding */
+            margin-top: 300px; /* Space above footer */
+            font-size: 10px; /* Smaller font size */
+        }
+        footer a {
+            color: #fffffb; /* Off-white */
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        footer a:hover {
+            color: #94d2bd; /* Light teal on hover */
+            text-decoration: underline;
+        }
+        /* Responsive styles for footer */
+        @media (max-width: 600px) {
+            footer {
+                padding: 2px; /* Smaller padding on small screens */
+                font-size: 8px; /* Smaller font size on small screens */
+            }
+        }
+        @media (max-width: 400px) {
+            footer {
+                padding: 1px; /* Even smaller padding */
+                font-size: 7px; /* Smaller font size */
+            }
+        }
+        #logo{
+        color: white;
+        padding: 0px 0px 0px 40px;       }
